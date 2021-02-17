@@ -1,7 +1,38 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = 'Hello';
+let greeting1 = 'Hello';
+let sum = 0;
+let prod = 0;
+function greet (greetingChange){
+  greeting = greeting +''+ greetingChange;
+}
 
+function sumOfTwo (x,y){
+  sum = x + y;
+}
+
+function multiply (x,y,z){
+  prod = x*y*z;
+}
+
+function sayHi(name){
+  return greeting1 + '' + name + '!' ;
+
+} 
+
+function returnWhatISay (announce){
+  return announce
+}
+
+function divide (x,y){
+  return x / y;
+}
+
+function  remainder (x,y){
+  return x % y;
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
